@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ExtensionData</key>
+			<dict>
+				<key>allowPasswordChange</key>
+				<true/>
+				<key>allowPlatformSSOAuthFallback</key>
+				<true/>
+				<key>performKerberosOnly</key>
+				<true/>
+				<key>preferredKDCs</key>
+				<array>
+					<string>kkdcp://login.microsoftonline.com/jamfse.io/kerberos</string>
+				</array>
+				<key>pwReqComplexity</key>
+				<true/>
+				<key>syncLocalPassword</key>
+				<true/>
+				<key>usePlatformSSOTGT</key>
+				<true/>
+			</dict>
+			<key>ExtensionIdentifier</key>
+			<string>com.apple.AppSSOKerberos.KerberosExtension</string>
+			<key>Hosts</key>
+			<array>
+				<string>jamfse.io</string>
+				<string>*.jamfse.io</string>
+				<string>windows.net</string>
+				<string>*.windows.net</string>
+				<string>KERBEROS.MICROSOFTONLINE.COM</string>
+				<string>MICROSOFTONLINE.COM</string>
+				<string>*.MICROSOFTONLINE.COM</string>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Single Sign-On Extensions Payload</string>
+			<key>PayloadIdentifier</key>
+			<string>6189731E-7372-4403-9E67-77D9C4C41C18</string>
+			<key>PayloadOrganization</key>
+			<string>JAMF Software</string>
+			<key>PayloadType</key>
+			<string>com.apple.extensiblesso</string>
+			<key>PayloadUUID</key>
+			<string>6189731E-7372-4403-9E67-77D9C4C41C18</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Realm</key>
+			<string>JAMFSE.IO</string>
+			<key>TeamIdentifier</key>
+			<string>apple</string>
+			<key>Type</key>
+			<string>Credential</string>
+			<key>URLs</key>
+			<array/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft Platform Single Sign-On (PSSOe) - Kerberos Settings for on-premises resources</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>31D2B4FD-0A8A-433A-9CFA-52ACE618F684</string>
+	<key>PayloadOrganization</key>
+	<string>Jamf SE</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>31D2B4FD-0A8A-433A-9CFA-52ACE618F684</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
