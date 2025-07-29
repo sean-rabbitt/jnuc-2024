@@ -7,14 +7,12 @@
 		<dict>
 			<key>ExtensionIdentifier</key>
 			<string>com.microsoft.CompanyPortalMac.ssoextension</string>
-			<key>Hosts</key>
-			<array/>
 			<key>PayloadDisplayName</key>
 			<string>Single Sign-On Extensions Payload</string>
 			<key>PayloadIdentifier</key>
 			<string>5F508299-D687-44C4-B1A8-CE1C7A0C7EF2</string>
 			<key>PayloadOrganization</key>
-			<string>JAMF Software</string>
+			<string>Sample Organization</string>
 			<key>PayloadType</key>
 			<string>com.apple.extensiblesso</string>
 			<key>PayloadUUID</key>
@@ -24,7 +22,7 @@
 			<key>PlatformSSO</key>
 			<dict>
 				<key>AccountDisplayName</key>
-				<string>Jamfse.io Entra ID account</string>
+				<string>Microsoft Entra ID</string>
 				<key>AuthenticationMethod</key>
 				<string>SmartCard</string>
 				<key>EnableAuthorization</key>
@@ -43,6 +41,8 @@
 				<key>UseSharedDeviceKeys</key>
 				<true/>
 			</dict>
+			<key>RegistrationToken</key>
+			<string>{{DEVICEREGISTRATION}}</string>
 			<key>ScreenLockedBehavior</key>
 			<string>DoNotHandle</string>
 			<key>TeamIdentifier</key>
@@ -70,7 +70,7 @@
 	<key>PayloadIdentifier</key>
 	<string>FD276B6A-16D4-4440-A9A0-2A1F621C25D6</string>
 	<key>PayloadOrganization</key>
-	<string>Jamf SE</string>
+	<string>Sample Organization</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>

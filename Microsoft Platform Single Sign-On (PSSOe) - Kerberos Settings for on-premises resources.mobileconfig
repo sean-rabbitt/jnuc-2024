@@ -15,7 +15,7 @@
 				<true/>
 				<key>preferredKDCs</key>
 				<array>
-					<string>kkdcp://login.microsoftonline.com/jamfse.io/kerberos</string>
+					<string>kkdcp://login.microsoftonline.com/example.com/kerberos</string>
 				</array>
 				<key>pwReqComplexity</key>
 				<true/>
@@ -28,8 +28,8 @@
 			<string>com.apple.AppSSOKerberos.KerberosExtension</string>
 			<key>Hosts</key>
 			<array>
-				<string>jamfse.io</string>
-				<string>*.jamfse.io</string>
+				<string>example.com</string>
+				<string>*.example.com</string>
 				<string>windows.net</string>
 				<string>*.windows.net</string>
 				<string>KERBEROS.MICROSOFTONLINE.COM</string>
@@ -41,7 +41,7 @@
 			<key>PayloadIdentifier</key>
 			<string>6189731E-7372-4403-9E67-77D9C4C41C18</string>
 			<key>PayloadOrganization</key>
-			<string>JAMF Software</string>
+			<string>Sample Organization</string>
 			<key>PayloadType</key>
 			<string>com.apple.extensiblesso</string>
 			<key>PayloadUUID</key>
@@ -49,7 +49,7 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Realm</key>
-			<string>JAMFSE.IO</string>
+			<string>EXAMPLE.COM</string>
 			<key>TeamIdentifier</key>
 			<string>apple</string>
 			<key>Type</key>
@@ -67,7 +67,7 @@
 	<key>PayloadIdentifier</key>
 	<string>31D2B4FD-0A8A-433A-9CFA-52ACE618F684</string>
 	<key>PayloadOrganization</key>
-	<string>Jamf SE</string>
+	<string>Sample Organization</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
